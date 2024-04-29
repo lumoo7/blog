@@ -7,8 +7,8 @@ import type {
 import { LinkPreset } from './types/config'
 
 export const siteConfig: SiteConfig = {
-  title: 'LuMoo',
-  subtitle: 'lumoo',
+  title: 'Lumos',
+  subtitle: 'lumos',
   lang: 'zh_CN',
   themeHue: 250,
   banner: {
@@ -39,9 +39,9 @@ export const navBarConfig: NavBarConfig = {
 }
 
 export const profileConfig: ProfileConfig = {
-  avatar: 'assets/images/demo-avatar.png',
-  name: 'Lu Moo',
-  bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  avatar: 'assets/images/avatar.png',
+  name: 'Lumos',
+  bio: ' ',
   links: [
     {
       name: 'GitHub',
