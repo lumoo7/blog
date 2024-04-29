@@ -3,8 +3,8 @@ title: 怎样在github上发布go开源项目
 published: 2024-03-01
 description: ''
 image: ''
-tags: []
-category: ''
+tags: [github]
+category: 'github'
 draft: false 
 ---
 # 在github上放开源项目
