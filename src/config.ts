@@ -10,7 +10,7 @@ export const siteConfig: SiteConfig = {
   title: 'Lumos',
   subtitle: 'lumos',
   lang: 'zh_CN',
-  themeHue: 250,
+  themeHue: 160,
   banner: {
     enable: false,
     src: 'assets/images/demo-banner.png',
