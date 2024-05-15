@@ -72,6 +72,12 @@ mysql 有7种日志，我需要看数据库的操作日志，那就应该找 bin
 
 ![](https://raw.githubusercontent.com/lumoo7/picutre_bed/main/uPic/F1QUBv.png "binlog content 3")
 
+此时我去看我的 navicat 我才注意到多了一个 recover_your_data 的库。
+
+打卡一看！ 我滴妈耶～
+![](https://raw.githubusercontent.com/lumoo7/picutre_bed/main/uPic/iqelP4.png "recover_your_data")
+
+好吧，我没比特币。他勒索不了我～
 
 <font color="green">第三步</font>就是恢复数据。
 这一步是使用 binlog 的恢复点来恢复数据了。
@@ -81,11 +87,12 @@ mysql 有7种日志，我需要看数据库的操作日志，那就应该找 bin
 
 （1）更改密码，使用复杂的数据库密码。我想这次被劫持，大概率可能是密码被暴力破解了；
 
-（2）添加子用户，绝对不能使用 root 去裸奔；
+（2）添加子用户，绝对不能使用 root 去裸奔，这其实是怕人删库跑路叭；
 
 （3）打开其他日志，例如 general-log 日志，这个默认是关闭的；
 
-（4）有必要的话，可以做一个 slave 库去备份主库的数据。
+（4）有必要的话，可以做一个 slave 库去备份主库的数据；
+
 # 总结
 这次事件没啥大影响，但是也给我上了一课。
 
